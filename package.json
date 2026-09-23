@@ -1,13 +1,20 @@
 {
   "name": "pi-herdr-summarizer",
   "version": "0.1.0",
-  "description": "Auto-name herdr workspaces using AI one-word summaries based on pi session context",
+  "description": "Auto-name herdr workspaces using AI summaries based on pi session context",
   "keywords": ["pi-package", "herdr"],
   "license": "MIT",
   "author": "dtmirizzi",
+  "homepage": "https://github.com/dtmirizzi/pi-herdr-summarizer#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dtmirizzi/pi-herdr-summarizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dtmirizzi/pi-herdr-summarizer/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "type": "module",
   "engines": {
@@ -15,14 +22,42 @@
   },
   "files": [
     "src/index.ts",
+    "CHANGELOG.md",
     "README.md"
   ],
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
   "pi": {
     "extensions": ["./src/index.ts"]
   },
   "peerDependencies": {
-    "@earendil-works/pi-coding-agent": "*",
     "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
     "typebox": "*"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "semantic-release": "^24.0.0"
+  },
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "assets": ["package.json", "CHANGELOG.md"],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ],
+      "@semantic-release/github"
+    ]
   }
 }
