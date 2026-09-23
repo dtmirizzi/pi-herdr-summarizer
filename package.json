@@ -1,0 +1,28 @@
+{
+  "name": "pi-herdr-summarizer",
+  "version": "0.1.0",
+  "description": "Auto-name herdr workspaces using AI one-word summaries based on pi session context",
+  "keywords": ["pi-package", "herdr"],
+  "license": "MIT",
+  "author": "dtmirizzi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtmirizzi/pi-herdr-summarizer.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src/index.ts",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*",
+    "typebox": "*"
+  }
+}
