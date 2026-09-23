@@ -1,8 +1,11 @@
 {
   "name": "pi-herdr-summarizer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Auto-name herdr workspaces using AI summaries based on pi session context",
-  "keywords": ["pi-package", "herdr"],
+  "keywords": [
+    "pi-package",
+    "herdr"
+  ],
   "license": "MIT",
   "author": "dtmirizzi",
   "homepage": "https://github.com/dtmirizzi/pi-herdr-summarizer#readme",
@@ -29,7 +32,9 @@
     "semantic-release": "semantic-release"
   },
   "pi": {
-    "extensions": ["./src/index.ts"]
+    "extensions": [
+      "./src/index.ts"
+    ]
   },
   "peerDependencies": {
     "@earendil-works/pi-ai": "*",
@@ -44,7 +49,9 @@
     "semantic-release": "^24.0.0"
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
@@ -53,7 +60,10 @@
       [
         "@semantic-release/git",
         {
-          "assets": ["package.json", "CHANGELOG.md"],
+          "assets": [
+            "package.json",
+            "CHANGELOG.md"
+          ],
           "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }
       ],
