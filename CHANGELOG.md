@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/dtmirizzi/pi-herdr-summarizer/compare/v1.0.1...v1.1.0) (2026-09-24)
+
+
+### Features
+
+* add package icon ([d7e1b18](https://github.com/dtmirizzi/pi-herdr-summarizer/commit/d7e1b18704e004b6a4b76f80027f607b63a442ad))
+
 ## [1.0.1](https://github.com/dtmirizzi/pi-herdr-summarizer/compare/v1.0.0...v1.0.1) (2026-09-24)
 
 
