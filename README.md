@@ -1,4 +1,8 @@
-# pi-herdr-summarizer
+# @dtmirizzi/pi-herdr-summarizer
+
+<p align="center">
+  <img src="assets/logo.png" width="256" height="256" alt="Logo">
+</p>
 
 Auto-name [herdr](https://herdr.ai) workspaces using AI summaries. Reads your pi session to understand what you're working on, then asks an LLM for a short, descriptive label (1–3 words).
 
