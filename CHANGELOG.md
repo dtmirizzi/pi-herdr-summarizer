@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/dtmirizzi/pi-herdr-summarizer/compare/v1.2.0...v1.2.1) (2026-09-24)
+
+
+### Bug Fixes
+
+* remove svg placeholder, use png logo ([5f6c808](https://github.com/dtmirizzi/pi-herdr-summarizer/commit/5f6c8082f0c0ee376d1bfb097f49f2a61d884cba))
+
 # [1.2.0](https://github.com/dtmirizzi/pi-herdr-summarizer/compare/v1.1.0...v1.2.0) (2026-09-24)
 
 
