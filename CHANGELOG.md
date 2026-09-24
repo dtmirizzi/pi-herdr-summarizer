@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/dtmirizzi/pi-herdr-summarizer/compare/v1.1.0...v1.2.0) (2026-09-24)
+
+
+### Features
+
+* AI-generated logo via Nano Banana ([8f7e7a7](https://github.com/dtmirizzi/pi-herdr-summarizer/commit/8f7e7a7ab4b99411e75442dbc53e10b9c43b4778))
+
 # [1.1.0](https://github.com/dtmirizzi/pi-herdr-summarizer/compare/v1.0.1...v1.1.0) (2026-09-24)
 
 
