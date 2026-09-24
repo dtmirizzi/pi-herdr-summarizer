@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dtmirizzi/pi-herdr-summarizer/compare/v1.0.0...v1.0.1) (2026-09-24)
+
+
+### Bug Fixes
+
+* scope package to [@dtmirizzi](https://github.com/dtmirizzi) for npm publish ([866a7ac](https://github.com/dtmirizzi/pi-herdr-summarizer/commit/866a7ac1e7acd572bdddd3d67c0cfcf1490475a7))
+
 # 1.0.0 (2026-09-23)
 
 
