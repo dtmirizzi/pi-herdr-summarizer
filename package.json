@@ -1,5 +1,5 @@
 {
-  "name": "pi-herdr-summarizer",
+  "name": "@dtmirizzi/pi-herdr-summarizer",
   "version": "1.0.0",
   "description": "Auto-name herdr workspaces using AI summaries based on pi session context",
   "keywords": [
